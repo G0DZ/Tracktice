@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="@string/pref_editTasks"
+        android:icon="@drawable/playlist_check"
+        android:summary="@string/pref_editTasks_summary"
+        android:key="edit_tasks" />
+
+    <Preference
+        android:title="@string/pref_editComments"
+        android:icon="@drawable/comment_text_outline"
+        android:summary="@string/pref_editComments_summary"
+        android:key="edit_comments" />
+
+    <Preference
+        android:title="@string/pref_delete"
+        android:icon="@drawable/delete"
+        android:summary="@string/pref_delete_summary"
+        android:key="delete" />
+
+</PreferenceScreen>

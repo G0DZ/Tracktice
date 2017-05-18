@@ -1,0 +1,95 @@
+<resources>
+
+    <string name="app_name">Tracktice</string>
+    <string name="app_tasks">Tasks</string>
+    <string name="app_comments">Comments</string>
+    <string name="app_newEntry">New entry</string>
+    <string name="app_permissions_title">Used permission</string>
+    <string name="app_permissions">
+
+        &lt;i>Create summaries as text files on sd card.&lt;/i>&lt;br>&lt;br>
+
+        &lt;i>Grant permissions later:&lt;/i>&lt;br>
+        If you don\'t permit this now, you can do it later. Please open then \"Settings -> App info\" and choose \"Permissions\".</string>
+
+    // Toasts
+
+    <string name="toast_yes">OK</string>
+    <string name="toast_cancel">Cancel</string>
+    <string name="toast_share">Share</string>
+    <string name="toast_share_use">Share with:</string>
+    <string name="toast_share_text">Share text</string>
+    <string name="toast_share_textFile">Share text file</string>
+    <string name="toast_error">Sorry, something went wrong.</string>
+
+    <string name="toast_save">Cancel editing the current entry?</string>
+    <string name="toast_newStart">Entry already exists. Please select other start time.</string>
+    <string name="toast_newEnd">End time must be after start time.</string>
+    <string name="toast_edit">Please pick correct start and end time.</string>
+    <string name="toast_newTitle">Entry already exists. Please select other title.</string>
+
+    <string name="toast_delete">Successfully deleted.</string>
+
+    <string name="toast_confirmation">Delete selected database? Are you sure?</string>
+    <string name="toast_confirmation_title">Confirmation</string>
+
+
+    // Menu
+
+    <string name="action_settings">Settings</string>
+    <string name="action_summary">Summary</string>
+
+    // Activity entries
+
+    <string name="search_hint">Enter search term</string>
+    <string name="entry_days">days</string>
+    <string name="entry_hours">hours</string>
+    <string name="entry_minutes">minutes</string>
+    <string name="entry_total">Total time:</string>
+    <string name="entry_delete">Delete entry?</string>
+    <string name="entry_select">Select an entry</string>
+
+    <string name="sort_task">Tasks</string>
+    <string name="sort_dur">Duration</string>
+    <string name="sort_start">Start time</string>
+    <string name="sort_com">Comments</string>
+
+    <string name="share_task">Task:</string>
+    <string name="share_com">Comment:</string>
+    <string name="share_start">Start time:</string>
+    <string name="share_dur">Duration:</string>
+
+    // Activity lists
+
+    <string name="editEntry_title">Edit entry</string>
+    <string name="editEntry_save">Entry saved</string>
+    <string name="editEntry_hint">Edit title</string>
+
+    // Edit Entry
+
+    <string name="entry_title">Edit entry</string>
+    <string name="entry_hintStart">Pick start time</string>
+    <string name="entry_hintEnd">Pick end time</string>
+    <string name="entry_hintGo">Start record now</string>
+    <string name="entry_hintGo_2">End record now</string>
+    <string name="entry_hintCom">Enter comment</string>
+    <string name="entry_hintTask">Enter task</string>
+    <string name="entry_hintSave">Save</string>
+    <string name="entry_not">Not yet set</string>
+
+    // Settings
+
+    <string name="pref_editTasks">Tasks</string>
+    <string name="pref_editTasks_summary">Edit tasks list. Click on an entry to edit, long click to delete.</string>
+
+    <string name="pref_editComments">Comments</string>
+    <string name="pref_editComments_summary">Edit comments list. Click on an entry to edit, long click to delete.</string>
+
+    <string name="pref_backup_all">… all of them</string>
+    <string name="pref_backup_tasks">Tasks list</string>
+    <string name="pref_backup_comments">Comments list</string>
+    <string name="pref_backup_entries">Entries</string>
+    <string name="pref_delete">Delete</string>
+    <string name="pref_delete_summary">Delete your saved entries or lists.</string>
+
+</resources>
